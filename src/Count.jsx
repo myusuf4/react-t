@@ -22,7 +22,7 @@ class Count extends React.Component{
         <button onClick={minus}>-</button>
       </div>
     )
-    
+    // 
   }
 }
 export default Count;
