@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Count from './Count'
 import Input from './Input';
-import Select from './select';
+import Students from './student';
+// import Select from './select';
+// import Count from './Count'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <div>
-    <Count/>
+    {/* <Count/> */}
     <Input />
-    <Select/>
+    <hr/>
+    <Students/>
+    {/* <Select/> */}
   </div>
  
 );
